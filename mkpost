@@ -1,0 +1,24 @@
+#!/opt/homebrew/bin/bash -eu
+
+# Get today's date
+date=$(date +"%F")                         # YYYY-MM-DD
+
+title="$*"
+
+# Define the file path
+slug="${title// /-}"                       # turn spaces into dashes
+slug="${slug,,}"                           # lower-case
+file_path="_posts/${date}-${slug}.md"
+
+# Create the new markdown file with front matter
+cat <<EOL > $file_path
+---
+title: "${title}"
+slug: "${slug}"
+layout: post
+---
+
+EOL
+
+echo "New post created at $file_path"
+vim +$ $file_path
