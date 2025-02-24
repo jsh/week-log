@@ -1,4 +1,4 @@
-title: Exploring Generating Functions
+title: Work Log
 author:
   name: Jeffrey S. Haemer
   email: jeffrey.haemer@gmail.com
@@ -6,7 +6,8 @@ author:
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
 description: >
-  I learn how to think about and work with generating functions.
+  A simple weblog to track what I've been doing.
+  My goal is five bullet points by end-of-week.
 
 # Build settings
 
