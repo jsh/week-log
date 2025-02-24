@@ -6,13 +6,9 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 #
 layout: home
-title: Learn Generating Functions
+title: Week Log
 ---
-I'm going to try to learn how to work with generating functions,
-and blog about it as I go.
 
-I'm interested in trends, and I have [a Python project to explore them](https://github.com/jsh/trendlist).
-Some statistical facts about trends are combinatorial, and can be understood with statistics of random permutations.
-Pure-combinatorial arguments give me some results, but many things I find on the internet deduce the same results with generating functions.
-
-
+A very simple weblog to record what I'm working on.
+My goal is to be able to list five things I've done during the week
+at the end of every week.
