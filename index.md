@@ -10,5 +10,6 @@ title: Week Log
 ---
 
 A very simple weblog to record what I'm working on.
-My goal is to be able to list five things I've done during the week
-at the end of every week.
+
+My goal is to be able to find five things I've done during the week
+by the end of every week. Why should Federal employees have all the fun?
