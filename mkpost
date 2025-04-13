@@ -28,5 +28,5 @@ layout: post
 
 EOL
 
+vi -o $(ls -t _posts | head -2 | perl -pe 's(^)(_posts/)')
 echo "New post created at $file_path"
-vim +$ $file_path
