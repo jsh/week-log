@@ -1,4 +1,4 @@
-#!/opt/homebrew/bin/bash -eu
+#!/bin/bash -eu
 
 # Get today's date
 date=$(date +"%F")                      # YYYY-MM-DD
