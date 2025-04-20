@@ -28,5 +28,9 @@ layout: post
 
 EOL
 
-vi -o $(ls -t _posts | head -2 | perl -pe 's(^)(_posts/)')
+initpost() (
+    cd _posts
+    vi -o $(ls | sort -n | tail -2)
+)
+initpost
 echo "New post created at $file_path"
