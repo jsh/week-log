@@ -1,0 +1,5 @@
+log () 
+{ 
+    cd ~/week-log/_posts;
+    vim $(ls -t | head -1)
+}

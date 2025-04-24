@@ -1,0 +1,6 @@
+pushlog () 
+{ 
+    cd ~/week-log/_posts;
+    git commit -am"updates";
+    git push
+}

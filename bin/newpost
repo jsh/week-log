@@ -1,0 +1,4 @@
+newpost () 
+{ 
+    source ~/week-log/bin/mkpost
+}
