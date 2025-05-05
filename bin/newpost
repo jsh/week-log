@@ -1,4 +1,5 @@
 newpost () 
 { 
-    source ~/week-log/bin/mkpost
+    cd ~/week-log
+    source bin/mkpost
 }
