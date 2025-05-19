@@ -32,6 +32,9 @@ initpost() (
     cd _posts
     vi -o $(ls | sort -n | tail -2)
     git add _posts
+    git commit -am"log for new week"
+    git push
 )
 initpost
 echo "New post created at $file_path"
+
