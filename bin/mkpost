@@ -31,7 +31,8 @@ EOL
 initpost() (
     cd _posts
     vi -o $(ls | sort -n | tail -2)
-    git add _posts
+    cd -
+    git add $file_path
     git commit -am"log for new week"
     git push
 )
